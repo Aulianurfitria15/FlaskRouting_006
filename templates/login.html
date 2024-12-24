@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Login Form</h2>
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+        <form action="{{ url_for('login') }}" method="post">
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" name="nm" placeholder="Your name" required />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>

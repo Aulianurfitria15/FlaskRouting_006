@@ -1,0 +1,64 @@
+/* Gaya umum untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7c9e1; /* Latar belakang pastel pink */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container utama */
+.container {
+    background-color: #f1e6e1; /* Latar belakang pastel cream */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Gaya untuk judul */
+h1, h2 {
+    color: #5a3d5c; /* Warna judul ungu lembut */
+}
+
+/* Form input */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #8f6b6b; /* Warna label pastel pink */
+    font-size: 14px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f2a6c1; /* Border pastel pink */
+    border-radius: 5px;
+}
+
+input[type="submit"], .btn {
+    background-color: #ffebf1; /* Background pastel pink */
+    color: #ff80b3; /* Teks pastel pink terang */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover, .btn:hover {
+    background-color: #d47cb5; /* Hover pastel pink */
+}
+
+.error {
+    color: #f28d94; /* Warna error pastel merah muda */
+    font-size: 12px;
+    margin-bottom: 15px;
+}
